@@ -34,3 +34,14 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+dist/_ssl.pyd
+*.pyo
+dist/automatedcheckout.exe
+*.pyd
+dist/python27.dll
+dist/pywintypes27.dll
+dist/selenium/webdriver/firefox/webdriver.xpi
+dist/selenium/webdriver/firefox/webdriver_prefs.json
+dist/w9xpopen.exe
+selenium.jar

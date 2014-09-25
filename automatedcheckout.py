@@ -104,6 +104,50 @@ try:
 except:
 	pass		
 
+#enter AAA membership info if applicable
+try:
+	elem = driver.find_element_by_id("aaaclubcode1")
+	elem.click()
+	elem.send_keys("010")
+	
+	elem = driver.find_element_by_id("aaanumber1")
+	elem.click()
+	elem.send_keys("1234567")	
+except:
+	pass
+	
+#enter NARP membership info if applicable
+try:
+	elem = driver.find_element_by_id("narpnumber1")
+	elem.click()
+	elem.send_keys("123456")
+except:
+	pass
+	
+#enter Veteran's Advantage membership info if applicable
+try:
+	elem = driver.find_element_by_id("veteransadvantagenumber1")
+	elem.click()
+	elem.send_keys("9706926384")
+except:
+	pass
+	
+#enter Student Advantage membership info if applicable
+try:
+	elem = driver.find_element_by_id("studentadvantagenumber1")
+	elem.click()
+	elem.send_keys("6088516911809553")
+except:
+	pass
+
+#enter Student Advantage membership info if applicable
+try:
+	elem = driver.find_element_by_id("isicnumber1")
+	elem.click()
+	elem.send_keys("123456789123")
+except:
+	pass
+	
 #fill in phone number	
 elem = driver.find_element_by_id("businessphonenumber")
 elem.click()
